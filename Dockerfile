@@ -7,7 +7,7 @@ COPY . .
 # RUN chmod 755 /entry.sh
 RUN mvn clean install
 EXPOSE 8090
-ENTRYPOINT ["/bin/bash"]
+# ENTRYPOINT ["/bin/bash"]
 
 
 
